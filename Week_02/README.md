@@ -1,5 +1,7 @@
 # 学习笔记
 
+## JVM 3
+
 1. 使用一个测试类分析GC情况：[GCLogAnalysis.java](./tools/GCLogAnalysis.java)
 
     - `java -XX:+PrintGCDetails GCLogAnalysis`
@@ -37,7 +39,12 @@
 6. 面试题
 
 7. 压力了测试
-    - `sb`工具
+    - `sb`工具（SuperBenchmarker）
     - jms
 
 工具： windows terminal
+
+
+## NIO 和 Netty
+
+端口：区分要访问的是哪个进程
